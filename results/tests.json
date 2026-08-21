@@ -1,0 +1,19 @@
+{
+  "author": "Harsha Nandhan Reddy Gajulapalli",
+  "email": "harshanandhanreddy820@gmail.com",
+  "command": "npx hardhat test",
+  "network": "Hardhat local",
+  "solidity": "0.8.20",
+  "passing": 6,
+  "failing": 0,
+  "duration_s": 6,
+  "tests": [
+    "stakes and records the balance before the transfer returns",
+    "reverts withdraw above the staked amount",
+    "returns principal on withdraw",
+    "pays rewards after time passes",
+    "splits rewards by stake share",
+    "only the owner can change the reward rate"
+  ],
+  "note": "No Sepolia deploy in this run. No private key was used."
+}

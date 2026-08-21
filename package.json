@@ -1,0 +1,17 @@
+{
+  "name": "erc20-staking-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ERC-20 staking vault with ReentrancyGuard. Hardhat tests on the local network.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "author": "Harsha Nandhan Reddy Gajulapalli <harshanandhanreddy820@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.17"
+  }
+}
